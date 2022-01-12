@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;500;600;700&family=Poppins:wght@400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: #f3f1ff;
   font-family: "Poppins", sans-serif;
@@ -9,11 +14,12 @@ section {
   max-width: 870px;
   background: #fff;
   margin: 0 285px 25px 285px;
-  padding: 0 30px;
+  padding: 30px;
   border-radius: 5px;
 }
 h1 {
   padding-bottom: 30px;
+  margin-top: 0px;
 }
 .top-players {
   display: grid;
@@ -39,6 +45,7 @@ hr {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 80px;
+  grid-row-gap: 20px;
 }
 .top-blog {
   display: flex;
@@ -46,7 +53,6 @@ hr {
 }
 .blog-img {
   max-width: 177px;
-  height: 177px;
   padding-right: 16px;
 }
 .blog-img img {
