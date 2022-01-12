@@ -1,19 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;500;600;700&family=Poppins:wght@400;500;600&display=swap");
-* {
+body {
   background-color: #f3f1ff;
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
 }
 section {
-  width: 870px;
+  max-width: 870px;
   background: #fff;
   margin: 0 285px 25px 285px;
+  padding: 0 30px;
+  border-radius: 5px;
+}
+h1 {
+  padding-bottom: 30px;
 }
 .top-players {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-row-gap: 30px;
+  grid-row-gap: 22px;
 }
 .top-player {
   display: flex;
@@ -25,4 +30,8 @@ section {
 }
 .img-player img {
   width: 100%;
+}
+hr {
+  margin: 30px 0;
+  color: #d1d1d1;
 }
