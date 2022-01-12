@@ -10,3 +10,19 @@ section {
   background: #fff;
   margin: 0 285px 25px 285px;
 }
+.top-players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 30px;
+}
+.top-player {
+  display: flex;
+  align-items: center;
+}
+.img-player {
+  width: 56px;
+  padding-right: 16px;
+}
+.img-player img {
+  width: 100%;
+}
