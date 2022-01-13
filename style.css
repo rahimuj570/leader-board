@@ -62,14 +62,16 @@ hr {
 .blog-info p,
 a {
   color: #9f9f9f;
-  font-size: 16px;
+  font-size: 15px;
+  padding: 4px 0px;
 }
 .blog-info a {
   color: #562eff;
   text-decoration: none;
 }
+
 h2 {
-  font-size: 20px;
+  font-size: 17.39px;
   font-weight: 500;
 }
 .latest-courses {
