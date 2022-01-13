@@ -126,3 +126,10 @@ small {
   border-radius: 50px;
   padding: 2px 5px;
 }
+footer {
+  background: #562eff;
+  text-align: center;
+  color: #fff;
+  padding: 10px 0;
+  font-weight: 600;
+}
