@@ -97,7 +97,6 @@ hr {
 }
 .top-blog {
   display: flex;
-  /* align-items: flex-end; */
 }
 .blog-img {
   max-width: 177px;
