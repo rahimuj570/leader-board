@@ -10,6 +10,48 @@ body {
   margin: 0;
   padding: 0;
 }
+.logo {
+  display: flex;
+}
+.logo-img {
+  max-width: 40px;
+  height: 50px;
+}
+.logo-img img {
+  width: 100%;
+}
+.logo-txt h1 {
+  font-size: 20px;
+  align-items: center;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  background: #562eff;
+  color: #fff;
+  padding: 10px 280px;
+  margin-bottom: 30px;
+}
+nav {
+  display: flex;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  padding-right: 20px;
+  list-style: none;
+}
+.logo-txt {
+  padding-bottom: 0px;
+}
+.profile {
+  width: 50px;
+}
+.profile img {
+  width: 100%;
+}
 section {
   max-width: 870px;
   background: #fff;
