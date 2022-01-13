@@ -1,0 +1,117 @@
+@media (max-width: 992px) {
+  .top-blogs {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 48px;
+    grid-row-gap: 20px;
+  }
+  header {
+    padding: 10px 190px;
+  }
+  .rating-duration {
+    flex-direction: column;
+  }
+  .latest-courses {
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+  }
+  section {
+    margin: 0 30px 30px 30px;
+  }
+}
+@media (max-width: 639px) {
+  .top-players {
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10px;
+  }
+}
+@media (max-width: 521px) {
+  section {
+    margin: 0 15px 30px 15px;
+  }
+}
+@media (max-width: 445px) {
+  section {
+    margin: 0 0px 30px 0px;
+  }
+  .latest-courses {
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 30px;
+  }
+}
+@media (max-width: 400px) {
+  .top-blog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 15px;
+  }
+}
+@media (max-width: 310px) {
+  .latest-courses {
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 30px;
+  }
+  .rating-duration {
+    flex-direction: unset;
+  }
+}
+@media (max-width: 263px) {
+  .rating-duration {
+    flex-direction: column;
+  }
+  .latest-courses {
+    text-align: center;
+  }
+  .duration {
+    margin-top: 5px;
+  }
+  .top-players {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (min-width: 993px) {
+  section {
+    margin: unset;
+  }
+
+  section {
+    margin: 0 auto;
+    margin-bottom: 0px;
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 840px) {
+  .top-blogs {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+/* ----------------------------------FOR NAVBAR_________________ */
+@media (max-width: 780px) {
+  header {
+    padding: 10px 115px;
+  }
+}
+@media (max-width: 610px) {
+  header {
+    padding: 10px 30px;
+  }
+}
+@media (max-width: 440px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 256px) {
+  nav {
+    flex-direction: column;
+    padding-top: 15px;
+  }
+  .profile {
+    padding-top: 5px;
+  }
+}

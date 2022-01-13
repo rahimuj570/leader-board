@@ -138,6 +138,7 @@ h2 {
 }
 .course-img {
   max-width: 224px;
+  flex-basis: 40%;
 }
 .course-img img {
   width: 100%;
