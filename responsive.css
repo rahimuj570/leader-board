@@ -89,7 +89,7 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
-/* ---------------------------------FOR NAVBAR_________________ */
+/* ----------------------------------FOR NAVBAR_________________ */
 @media (max-width: 780px) {
   header {
     padding: 10px 115px;
